@@ -1,0 +1,2 @@
+To create new virtual environment:
+conda create --name speech python=3.7 -y
