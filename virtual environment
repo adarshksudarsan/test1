@@ -1,0 +1,3 @@
+virtualenv ~/virtualenvironment/env_name    #here virtualenvironment is just a directory
+cd ~/virtualenvironment/env_name/bin
+source activate
