@@ -1,2 +1,5 @@
 To create new virtual environment:
 conda create --name speech python=3.7 -y
+To export virtual environment to other computer
+1)activate the environment
+2)conda env export > environment.yml
