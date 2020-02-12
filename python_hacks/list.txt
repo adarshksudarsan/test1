@@ -1,0 +1,8 @@
+convert type of data inside a list
+
+
+python 2
+res = map(int, StudentGrades)
+
+python 3
+res = list(map(int, StudentGrades))
