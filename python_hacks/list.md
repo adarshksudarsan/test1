@@ -8,6 +8,7 @@ python 3
 res = list(map(int, StudentGrades))
 ___
 # appending and extending 
-link:(https://stackoverflow.com/questions/20196159/how-to-append-multiple-values-to-a-list-in-python#20196202 )
+
+[link:] (https://stackoverflow.com/questions/20196159/how-to-append-multiple-values-to-a-list-in-python#20196202 )
 
 to add multiple values to list use list.extend[(5,6,7)]
