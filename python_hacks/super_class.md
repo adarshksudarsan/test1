@@ -1,6 +1,7 @@
 # superclas()
 ![link](https://realpython.com/python-super/)
 ___
+'''
 class Rectangle:
     def __init__(self, length, width):
         self.length = length
@@ -23,10 +24,10 @@ class Square:
         return 4 * self.length
 '''        
 but here square is a special case of rectangle so we can reuse the code of rectangle for square
-'''
 
 # it will be
 ___
+'''
 class Rectangle:
     def __init__(self, length, width):
         self.length = length
@@ -43,5 +44,5 @@ class Square(Rectangle):
     def __init__(self, length):
         super().__init__(length, length)
         
-        
+ '''     
 
