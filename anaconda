@@ -7,3 +7,5 @@ To list the environments in conda :
 conda env list
 To update conda:
 conda update -n base -c defaults conda
+To remove an environment:
+conda env remove --name myenv
