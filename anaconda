@@ -11,3 +11,5 @@ To remove an environment:
 conda env remove --name myenv
 To list all conda environments:
 conda info --envs
+To clone an existing environment:
+conda create --name <name of new env> --clone <name of existing env>
