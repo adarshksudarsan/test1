@@ -1,5 +1,0 @@
-sed -i.bak '/^3/d' *.txt
-.bak to add backup of files after modification
-
-*.txt  means to ennumerate inside all files with "txt"
-
