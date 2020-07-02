@@ -1,4 +1,4 @@
-[![Build Status][travis-image]][travis]
+[![Build Status][a]][b]
 
-[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master
-[travis]: http://travis-ci.org/davidsandberg/facenet
+[a]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master
+[b]: http://travis-ci.org/davidsandberg/facenet
