@@ -1,2 +1,10 @@
-ffmpeg -i input.m4v -vcodec copy -acodec copy output.mp4
-ffmpeg -i input.m4v -c copy output.mp4
+# encde
+
+# resize
+ffmpeg -i input.avi -s 720x480 -c:a copy output.mkv
+# resize with preserving aspect ratio
+ffmpeg -i input.avi -filter:v scale=720:-1 -c:a copy output.mkv
+# Video to frames 
+`ffmpeg -i filename.mp4 -vf fps=5 $filename%03d.jpg `
+
+here fps=1 means 1 frame in every second to get 1 frame in every 2 seconds fps=1/2 or to get every frame fps=value of fps of video
